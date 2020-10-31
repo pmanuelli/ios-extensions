@@ -1,0 +1,29 @@
+PODS:
+  - iOSExtensions (0.1.0):
+    - iOSExtensions/Swift (= 0.1.0)
+    - iOSExtensions/UIKit (= 0.1.0)
+  - iOSExtensions/RxSwift (0.1.0):
+    - RxSwift
+  - iOSExtensions/Swift (0.1.0)
+  - iOSExtensions/UIKit (0.1.0)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - iOSExtensions (from `../`)
+  - iOSExtensions/RxSwift (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - RxSwift
+
+EXTERNAL SOURCES:
+  iOSExtensions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOSExtensions: e61218d95b31c3e11bbee02b53e2e148005f8e41
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: ada58cf5306e9005c37187e9f2c0bba851bd57f8
+
+COCOAPODS: 1.9.3

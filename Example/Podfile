@@ -1,0 +1,14 @@
+platform :ios, '9.3'
+
+use_frameworks!
+
+target 'iOSExtensions_Example' do
+  
+  pod 'iOSExtensions', :path => '../'
+  pod 'iOSExtensions/RxSwift', :path => '../'
+
+  target 'iOSExtensions_Tests' do
+    inherit! :search_paths
+
+  end
+end
