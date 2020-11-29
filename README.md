@@ -13,11 +13,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-iOSExtensions is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+iOSExtensions is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'iOSExtensions'
+pod 'iOSExtensions', :git => 'https://github.com/pmanuelli/ios-extensions.git'
 ```
 
 ## Author
